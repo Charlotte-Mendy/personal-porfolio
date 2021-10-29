@@ -1,0 +1,77 @@
+// 🔽 Vars
+$primary-color: rgba(163, 10, 166, 0.04);
+$secondary-color: #a30aa6;
+
+$primary-text-color: #100250;
+$secondary-text-color: #fff;
+
+$heading-font: 'Nunito', Arial, sans-serif;
+$content-font: 'Open Sans', Arial, sans-serif;
+
+// 🔽 Styles
+body {
+  h1,
+  h2,
+  h3 {
+    color: $primary-text-color;
+    font-family: $heading-font;
+  }
+
+  p,
+  a {
+    font-family: $content-font;
+  }
+
+  .hero {
+    background-color: $primary-color;
+    color: $primary-text-color;
+    padding: 160px 20px;
+    text-align: center;
+
+    p {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    .btn-filled {
+      background-color: $secondary-color;
+      border-radius: 50px;
+      color: $secondary-text-color;
+      padding: 16px 32px;
+
+      &:hover {
+        background-color: #c40fc7;
+      }
+    }
+  }
+}
+
+//& 🔽 Media queries
+@media (min-width: 768px) {
+  body {
+    .hero {
+      p {
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 96px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
+}

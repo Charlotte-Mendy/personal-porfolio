@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body h1,
+body h2,
+body h3 {
+  color: #100250;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+body p,
+body a {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+body .hero {
+  background-color: rgba(163, 10, 166, 0.04);
+  color: #100250;
+  padding: 160px 20px;
+  text-align: center;
+}
+
+body .hero p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body .hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+body .hero h2 {
+  font-size: 16px;
+}
+
+body .hero .btn-filled {
+  background-color: #a30aa6;
+  border-radius: 50px;
+  color: #fff;
+  padding: 16px 32px;
+}
+
+body .hero .btn-filled:hover {
+  background-color: #c40fc7;
+}
+
+@media (min-width: 768px) {
+  body .hero p {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  body .hero h1 {
+    font-size: 96px;
+    font-weight: bold;
+  }
+  body .hero h2 {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
