@@ -3,6 +3,7 @@ $primary-color: rgba(163, 10, 166, 0.04);
 $secondary-color: #a30aa6;
 
 $primary-text-color: #100250;
+$alt-text-color: #10025083;
 $secondary-text-color: #fff;
 
 $heading-font: 'Nunito', Arial, sans-serif;
@@ -12,7 +13,8 @@ $content-font: 'Open Sans', Arial, sans-serif;
 body {
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     color: $primary-text-color;
     font-family: $heading-font;
   }
@@ -53,6 +55,43 @@ body {
       }
     }
   }
+
+  .container {
+    .section {
+      .section-title {
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      .project-details {
+        .project-title {
+          font-size: 24px;
+          font-weight: bold;
+        }
+
+        .project-description {
+          color: $alt-text-color;
+          line-height: 1.5;
+        }
+
+        .btn-outlined {
+          border: 1px solid $secondary-color;
+          border-radius: 50px;
+          color: $secondary-color;
+          padding: 16px 32px;
+
+          &:hover {
+            background-color: #c40fc7;
+            color: $secondary-text-color;
+          }
+
+          .fa-laptop {
+            padding-right: 15px;
+          }
+        }
+      }
+    }
+  }
 }
 
 //& 🔽 Media queries
@@ -65,12 +104,23 @@ body {
       }
 
       h1 {
-        font-size: 96px;
+        font-size: 72px;
         font-weight: bold;
       }
 
       h2 {
         font-size: 24px;
+      }
+    }
+
+    .container {
+      width: 800px;
+
+      .section {
+        h3 {
+          font-size: 52px;
+          font-weight: bold;
+        }
       }
     }
   }
