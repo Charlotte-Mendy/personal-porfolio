@@ -34,8 +34,7 @@ body .btn-outlined:hover {
   color: #fff;
 }
 
-body .btn-outlined .btn .fa,
-body .btn-outlined .btn > .fas {
+body .btn-outlined .fa-laptop {
   padding-right: 15px;
 }
 
@@ -71,6 +70,25 @@ body .container .section .project-details .project-title {
 }
 
 body .container .section .project-details .project-description {
+  color: #10025083;
+  line-height: 1.5;
+}
+
+body .container {
+  padding: 100px 0px;
+}
+
+body .container .section .section-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+body .container .section .section-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body .container .section .section-description {
   color: #10025083;
   line-height: 1.5;
 }

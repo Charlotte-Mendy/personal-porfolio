@@ -11,6 +11,7 @@ $content-font: 'Open Sans', Arial, sans-serif;
 
 // 🔽 Styles
 body {
+  //& Global styles
   h1,
   h2,
   h3,
@@ -46,12 +47,12 @@ body {
       color: $secondary-text-color;
     }
 
-    .btn .fa,
-    .btn > .fas {
+    .fa-laptop {
       padding-right: 15px;
     }
   }
 
+  //& Homepage - Hero
   .hero {
     background-color: $primary-color;
     color: $primary-text-color;
@@ -73,6 +74,7 @@ body {
     }
   }
 
+  //& Homepage - Featured section
   .container {
     .section {
       .section-title {
@@ -93,10 +95,33 @@ body {
       }
     }
   }
+
+  //& Other sections
+  .container {
+    padding: 100px 0px;
+
+    .section {
+      .section-title {
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      .section-subtitle {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .section-description {
+        color: $alt-text-color;
+        line-height: 1.5;
+      }
+    }
+  }
 }
 
-//& 🔽 Media queries
+// 🔽 Media queries
 @media (min-width: 768px) {
+  //& Homepage - Hero
   body {
     .hero {
       p {
@@ -114,6 +139,7 @@ body {
       }
     }
 
+    //& Homepage - Featured section
     .container {
       width: 800px;
 
