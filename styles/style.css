@@ -103,6 +103,21 @@ body .container .section .stack-icons .stack-icon {
   margin-right: 5px;
 }
 
+body .container .section .social-icon {
+  background-color: rgba(163, 10, 166, 0.04);
+  color: #a30aa6;
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+body .container .section .social-icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 @media (min-width: 768px) {
   .container {
     padding: 100px 0;
