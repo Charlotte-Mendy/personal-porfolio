@@ -59,23 +59,19 @@ body .hero h2 {
   font-size: 16px;
 }
 
-body .container .section .section-title {
+body .container .featured-section .section-title {
   font-size: 36px;
   font-weight: bold;
 }
 
-body .container .section .project-details .project-title {
+body .container .featured-section .project-details .project-title {
   font-size: 24px;
   font-weight: bold;
 }
 
-body .container .section .project-details .project-description {
+body .container .featured-section .project-details .project-description {
   color: #10025083;
   line-height: 1.5;
-}
-
-body .container {
-  padding: 100px 0px;
 }
 
 body .container .section .section-title {
@@ -94,23 +90,21 @@ body .container .section .section-description {
 }
 
 @media (min-width: 768px) {
+  .container {
+    padding: 100px 0;
+    width: 800px;
+  }
   body .hero p {
     font-size: 36px;
-    font-weight: bold;
   }
   body .hero h1 {
     font-size: 72px;
-    font-weight: bold;
   }
   body .hero h2 {
     font-size: 24px;
   }
-  body .container {
-    width: 800px;
-  }
-  body .container .section h3 {
+  body .container .featured-section .section-title {
     font-size: 52px;
-    font-weight: bold;
   }
 }
 /*# sourceMappingURL=style.css.map */

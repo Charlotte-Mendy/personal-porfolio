@@ -76,7 +76,7 @@ body {
 
   //& Homepage - Featured section
   .container {
-    .section {
+    .featured-section {
       .section-title {
         font-size: 36px;
         font-weight: bold;
@@ -98,8 +98,6 @@ body {
 
   //& Other sections
   .container {
-    padding: 100px 0px;
-
     .section {
       .section-title {
         font-size: 40px;
@@ -121,17 +119,21 @@ body {
 
 // 🔽 Media queries
 @media (min-width: 768px) {
-  //& Homepage - Hero
+  //& Global styles
+  .container {
+    padding: 100px 0;
+    width: 800px;
+  }
+
   body {
+    //& Homepage - Hero
     .hero {
       p {
         font-size: 36px;
-        font-weight: bold;
       }
 
       h1 {
         font-size: 72px;
-        font-weight: bold;
       }
 
       h2 {
@@ -141,12 +143,9 @@ body {
 
     //& Homepage - Featured section
     .container {
-      width: 800px;
-
-      .section {
-        h3 {
+      .featured-section {
+        .section-title {
           font-size: 52px;
-          font-weight: bold;
         }
       }
     }
