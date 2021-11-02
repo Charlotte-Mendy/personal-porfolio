@@ -96,7 +96,7 @@ body {
     }
   }
 
-  //& Other sections
+  //& Other sections : about & work
   .container {
     .section {
       .section-title {
@@ -113,6 +113,19 @@ body {
         color: $alt-text-color;
         line-height: 1.5;
       }
+
+      .uppercase-title {
+        text-transform: uppercase;
+        color: $alt-text-color;
+      }
+
+      .stack-icons {
+        font-size: 24px;
+
+        .stack-icon {
+          margin-right: 5px;
+        }
+      }
     }
   }
 }
@@ -122,7 +135,7 @@ body {
   //& Global styles
   .container {
     padding: 100px 0;
-    width: 800px;
+    width: 900px;
   }
 
   body {

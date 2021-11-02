@@ -89,10 +89,23 @@ body .container .section .section-content {
   line-height: 1.5;
 }
 
+body .container .section .uppercase-title {
+  text-transform: uppercase;
+  color: #10025083;
+}
+
+body .container .section .stack-icons {
+  font-size: 24px;
+}
+
+body .container .section .stack-icons .stack-icon {
+  margin-right: 5px;
+}
+
 @media (min-width: 768px) {
   .container {
     padding: 100px 0;
-    width: 800px;
+    width: 900px;
   }
   body .hero p {
     font-size: 36px;
