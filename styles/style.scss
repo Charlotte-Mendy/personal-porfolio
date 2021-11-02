@@ -24,6 +24,34 @@ body {
     font-family: $content-font;
   }
 
+  .btn-filled {
+    background-color: $secondary-color;
+    border-radius: 50px;
+    color: $secondary-text-color;
+    padding: 16px 32px;
+
+    &:hover {
+      background-color: #c40fc7;
+    }
+  }
+
+  .btn-outlined {
+    border: 1px solid $secondary-color;
+    border-radius: 50px;
+    color: $secondary-color;
+    padding: 16px 32px;
+
+    &:hover {
+      background-color: #c40fc7;
+      color: $secondary-text-color;
+    }
+
+    .btn .fa,
+    .btn > .fas {
+      padding-right: 15px;
+    }
+  }
+
   .hero {
     background-color: $primary-color;
     color: $primary-text-color;
@@ -43,17 +71,6 @@ body {
     h2 {
       font-size: 16px;
     }
-
-    .btn-filled {
-      background-color: $secondary-color;
-      border-radius: 50px;
-      color: $secondary-text-color;
-      padding: 16px 32px;
-
-      &:hover {
-        background-color: #c40fc7;
-      }
-    }
   }
 
   .container {
@@ -72,22 +89,6 @@ body {
         .project-description {
           color: $alt-text-color;
           line-height: 1.5;
-        }
-
-        .btn-outlined {
-          border: 1px solid $secondary-color;
-          border-radius: 50px;
-          color: $secondary-color;
-          padding: 16px 32px;
-
-          &:hover {
-            background-color: #c40fc7;
-            color: $secondary-text-color;
-          }
-
-          .fa-laptop {
-            padding-right: 15px;
-          }
         }
       }
     }
