@@ -56,6 +56,20 @@ body {
   // & Navbar
   .navbar {
     padding: 20px;
+
+    .navbar-brand {
+      font-size: 18px;
+
+      .logo {
+        background: -webkit-linear-gradient(
+          $secondary-color,
+          $primary-text-color
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-right: 10px;
+      }
+    }
   }
 
   // Overrides default prop

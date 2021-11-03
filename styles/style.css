@@ -43,6 +43,17 @@ body .navbar {
   padding: 20px;
 }
 
+body .navbar .navbar-brand {
+  font-size: 18px;
+}
+
+body .navbar .navbar-brand .logo {
+  background: -webkit-linear-gradient(#a30aa6, #100250);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 10px;
+}
+
 body .bg-primary-color {
   background-color: #fff3ff;
 }
