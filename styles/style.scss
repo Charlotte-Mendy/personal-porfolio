@@ -73,7 +73,13 @@ body {
     padding: 0 20px;
   }
 
-  // Overrides default .active
+  // Overrides default prop
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-nav .nav-link {
+    color: $primary-text-color;
+  }
+
+  // Overrides default prop
   .navbar-light .navbar-nav .nav-link.active {
     color: $secondary-color;
   }

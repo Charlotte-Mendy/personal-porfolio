@@ -57,6 +57,11 @@ body .nav-item {
   padding: 0 20px;
 }
 
+body .navbar-light .navbar-brand,
+body .navbar-light .navbar-nav .nav-link {
+  color: #100250;
+}
+
 body .navbar-light .navbar-nav .nav-link.active {
   color: #a30aa6;
 }
