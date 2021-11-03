@@ -109,13 +109,13 @@ body .container .section .social-icon {
   font-size: 30px;
   border-radius: 50px;
   padding: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 body .container .section .social-icon:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 @media (min-width: 768px) {
