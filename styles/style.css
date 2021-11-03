@@ -39,8 +39,30 @@ body .btn-icon {
   padding-right: 15px;
 }
 
+body .navbar {
+  padding: 20px;
+}
+
+body .bg-primary-color {
+  background-color: #fff3ff;
+}
+
+body .navbar-expand-lg .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .nav-item {
+  padding: 0 20px;
+}
+
+body .navbar-light .navbar-nav .nav-link.active {
+  color: #a30aa6;
+}
+
 body .hero {
-  background-color: rgba(163, 10, 166, 0.04);
+  background-color: #fff3ff;
   color: #100250;
   padding: 160px 20px;
   text-align: center;
@@ -104,7 +126,7 @@ body .container .section .stack-icons .stack-icon {
 }
 
 body .container .section .social-icon {
-  background-color: rgba(163, 10, 166, 0.04);
+  background-color: #fff3ff;
   color: #a30aa6;
   font-size: 30px;
   border-radius: 50px;

@@ -1,5 +1,5 @@
 // 🔽 Vars
-$primary-color: rgba(163, 10, 166, 0.04);
+$primary-color: rgb(255, 243, 255);
 $secondary-color: #a30aa6;
 
 $primary-text-color: #100250;
@@ -51,6 +51,31 @@ body {
 
   .btn-icon {
     padding-right: 15px;
+  }
+
+  // & Navbar
+  .navbar {
+    padding: 20px;
+  }
+
+  // Overrides default prop
+  .bg-primary-color {
+    background-color: $primary-color;
+  }
+
+  .navbar-expand-lg {
+    .navbar-collapse {
+      justify-content: flex-end;
+    }
+  }
+
+  .nav-item {
+    padding: 0 20px;
+  }
+
+  // Overrides default .active
+  .navbar-light .navbar-nav .nav-link.active {
+    color: $secondary-color;
   }
 
   //& Homepage - Hero
