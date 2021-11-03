@@ -173,6 +173,31 @@ body {
       }
     }
   }
+
+  //& Footer
+  footer {
+    background-color: $primary-color;
+    color: $primary-text-color;
+    padding: 20px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    margin: 0;
+
+    a {
+      color: $secondary-color;
+    }
+  }
+
+  .social-icon {
+    padding: 10px;
+    color: $primary-text-color;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
 }
 
 // 🔽 Media queries

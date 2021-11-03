@@ -145,6 +145,30 @@ body .container .section .social-icon:hover {
           transform: scale(1.2);
 }
 
+body footer {
+  background-color: #fff3ff;
+  color: #100250;
+  padding: 20px;
+}
+
+body .copyright {
+  font-size: 12px;
+  margin: 0;
+}
+
+body .copyright a {
+  color: #a30aa6;
+}
+
+body .social-icon {
+  padding: 10px;
+  color: #100250;
+}
+
+body .social-icon:hover {
+  color: #a30aa6;
+}
+
 @media (min-width: 768px) {
   .container {
     padding: 100px 0;
