@@ -150,6 +150,8 @@ body {
 
   //& Other sections : about & work
   .container {
+    padding: 100px 0;
+
     .section {
       .section-title {
         font-size: 40px;
@@ -172,6 +174,7 @@ body {
       }
 
       .stack-icons {
+        color: $primary-text-color;
         font-size: 24px;
 
         .stack-icon {
@@ -223,10 +226,6 @@ body {
 // 🔽 Media queries
 @media (min-width: 768px) {
   //& Global styles
-  .container {
-    padding: 100px 0;
-    width: 900px;
-  }
 
   body {
     //& Homepage - Hero
