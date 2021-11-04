@@ -1,10 +1,11 @@
 // 🔽 Vars
-$primary-color: rgb(255, 243, 255);
+$primary-color: #fff3ff;
 $secondary-color: #a30aa6;
+$bright-secondary-color: #c40fc7;
 
-$primary-text-color: #100250;
-$alt-text-color: #10025083;
-$secondary-text-color: #fff;
+$dark-color: #100250;
+$medium-color: #10025083;
+$light-color: #fff;
 
 $heading-font: 'Nunito', Arial, sans-serif;
 $content-font: 'Open Sans', Arial, sans-serif;
@@ -16,7 +17,7 @@ body {
   h2,
   h3,
   h4 {
-    color: $primary-text-color;
+    color: $dark-color;
     font-family: $heading-font;
   }
 
@@ -28,12 +29,12 @@ body {
   .btn-filled {
     background-color: $secondary-color;
     border-radius: 50px;
-    color: $secondary-text-color;
+    color: $light-color;
     padding: 16px 32px;
 
     &:hover {
-      background-color: #c40fc7;
-      color: $secondary-text-color;
+      background-color: $bright-secondary-color;
+      color: $light-color;
     }
   }
 
@@ -44,8 +45,8 @@ body {
     padding: 16px 32px;
 
     &:hover {
-      background-color: #c40fc7;
-      color: $secondary-text-color;
+      background-color: $bright-secondary-color;
+      color: $light-color;
     }
   }
 
@@ -61,10 +62,7 @@ body {
       font-size: 18px;
 
       .logo {
-        background: -webkit-linear-gradient(
-          $secondary-color,
-          $primary-text-color
-        );
+        background: -webkit-linear-gradient($secondary-color, $dark-color);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -91,7 +89,7 @@ body {
   // Overrides default prop
   .navbar-light .navbar-brand,
   .navbar-light .navbar-nav .nav-link {
-    color: $primary-text-color;
+    color: $dark-color;
   }
 
   // Overrides default prop
@@ -106,7 +104,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: $primary-color;
-    color: $primary-text-color;
+    color: $dark-color;
     min-height: 100vh;
     padding: 0 30px;
     text-align: center;
@@ -141,7 +139,7 @@ body {
         }
 
         .project-description {
-          color: $alt-text-color;
+          color: $medium-color;
           line-height: 1.5;
         }
       }
@@ -165,17 +163,17 @@ body {
       }
 
       .section-content {
-        color: $alt-text-color;
+        color: $medium-color;
         line-height: 1.5;
       }
 
       .uppercase-title {
         text-transform: uppercase;
-        color: $alt-text-color;
+        color: $medium-color;
       }
 
       .stack-icons {
-        color: $primary-text-color;
+        color: $dark-color;
         font-size: 24px;
 
         .stack-icon {
@@ -204,7 +202,7 @@ body {
   //& Footer
   footer {
     background-color: $primary-color;
-    color: $primary-text-color;
+    color: $dark-color;
     padding: 20px 30px;
   }
 
@@ -219,7 +217,7 @@ body {
 
   .social-icon {
     padding: 10px;
-    color: $primary-text-color;
+    color: $dark-color;
 
     &:hover {
       color: $secondary-color;
