@@ -65,6 +65,7 @@ body {
           $secondary-color,
           $primary-text-color
         );
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding-right: 10px;

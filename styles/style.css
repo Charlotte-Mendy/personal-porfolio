@@ -49,6 +49,7 @@ body .navbar .navbar-brand {
 
 body .navbar .navbar-brand .logo {
   background: -webkit-linear-gradient(#a30aa6, #100250);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 10px;
