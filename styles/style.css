@@ -40,7 +40,7 @@ body .btn-icon {
 }
 
 body .navbar {
-  padding: 20px;
+  padding: 20px 30px;
 }
 
 body .navbar .navbar-brand {
@@ -174,7 +174,7 @@ body .container .section .social-icon:hover {
 body footer {
   background-color: #fff3ff;
   color: #100250;
-  padding: 20px;
+  padding: 20px 30px;
 }
 
 body .copyright {
