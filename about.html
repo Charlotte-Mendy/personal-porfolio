@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary-color">
-        <div class="container-fluid">
+        <div class="container-fluid p-0">
             <a class="navbar-brand" href="/" title="Homepage">
                 <span class="logo">
                     <i class="fas fa-chevron-left"></i>
@@ -37,14 +37,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="/" title="Homepage">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/work.html" title="Charlotte's work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/about.html"
-                            title="About Charlotte">About</a>
+                        <a class="nav-link" href="/about.html" title="About Charlotte">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contact.html" title="Contact Charlotte">Contact</a>
@@ -57,17 +56,30 @@
     <div class="container">
         <section class="row section justify-content-center p-4">
             <div class="row justify-content-center mb-5 p-0">
-                <div class="col-sm-12 col-md-4">
-                    <img src="#" alt="Charlotte Mendy"
-                        class="img-fluid mb-5 d-md-block border border-light border-5 rounded shadow">
+                <div
+                    class="col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start align-items-md-center">
+                    <img src="/images/profile-picture.jpg" alt="Charlotte Mendy's profile picture "
+                        class="img-fluid mb-5 mb-md-0 d-md-block border border-light border-5 rounded shadow profile-picture">
                 </div>
                 <div class="col-sm-12 col-md-8 ps-md-5">
-                    <h1 class="section-title mb-5">Charlotte Mendy</h1>
+                    <h1 class="section-title mt-5 mb-5">Charlotte Mendy</h1>
                     <h2 class="section-subtitle mb-3">Front-end Developer, based in France</h2>
                     <p class="section-content mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quisquam
                         dolorem hic asperiores unde facilis, nemo enim minima eos nam. Quibusdam, optio! Enim quae iure
                         beatae necessitatibus dolorem odit repellendus amet.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque harum molestiae quos ut illum.
+                        Error eum a praesentium eius sequi saepe eos exercitationem recusandae corrupti. Quo sed harum
+                        eligendi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, perspiciatis inventore. Cum
+                        obcaecati debitis non voluptate ducimus omnis facere officia nesciunt dolorum reprehenderit
+                        ipsum enim repellendus, possimus quasi cupiditate excepturi, aperiam accusamus itaque?
+                        Praesentium esse, sint laboriosam, aspernatur pariatur ex delectus quibusdam culpa, dolorem
+                        dicta quod recusandae omnis. Dignissimos, a maiores? Odio quibusdam beatae tenetur nisi sequi
+                        eius, quaerat quam! Recusandae adipisci ipsum commodi, ut rerum omnis reiciendis, odit deserunt
+                        sed quos nisi ex facere sapiente eligendi possimus eaque repellendus totam, est odio nihil magni
+                        doloribus maxime illum. Inventore architecto illum quo in. Rerum, ratione! Sed laudantium at
+                        quasi vitae.
                     </p>
                     <a href="/work.html" target="_blank" class="btn btn-filled" title="See Charlotte's work"><i
                             class="btn-icon fas fa-briefcase"></i>View all
@@ -78,13 +90,13 @@
     </div>
     <footer>
         <div class="row align-items-center">
-            <div class="col-12 col-md-10 text-center text-md-start">
+            <div class="col-12 col-md-8 text-center text-md-start">
                 <p class="copyright">&copy; By Charlotte Mendy - Open-sourced on <a
                         href="https://github.com/Charlotte-Mendy/personal-porfolio" target="_blank"
                         title="View source code on GitHub">GitHub</a>
                 </p>
             </div>
-            <div class="col-12 col-md-2 text-center justify-content-center">
+            <div class="col-12 col-md-4 text-center text-md-end">
                 <a href="mailto:charlotte.mendy.dev@gmail.com" target="_blank" title="Send a mail to Charlotte"><i
                         class="social-icon order-1 fas fa-envelope"></i></a>
                 <a href="https://twitter.com/charmencode" target="_blank" title="See Charlotte's Twitter profile"><i

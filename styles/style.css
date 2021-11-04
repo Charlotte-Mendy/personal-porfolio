@@ -176,6 +176,10 @@ body .container .section .social-icon:hover {
           transform: scale(1.2);
 }
 
+body .container .section .profile-picture {
+  max-width: 250px;
+}
+
 body footer {
   background-color: #fff3ff;
   color: #100250;
