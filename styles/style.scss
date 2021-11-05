@@ -12,6 +12,8 @@ $content-font: 'Open Sans', Arial, sans-serif;
 
 // 🔽 Styles
 body {
+  min-height: 100vh;
+
   //& Global styles
   h1,
   h2,
@@ -149,7 +151,6 @@ body {
   //& Other sections : about & work
   .container {
     padding: 100px 0;
-    min-height: 100vh;
 
     .section {
       .section-title {

@@ -1,3 +1,7 @@
+body {
+  min-height: 100vh;
+}
+
 body h1,
 body h2,
 body h3,
@@ -130,7 +134,6 @@ body .container .featured-section .project-details .project-description {
 
 body .container {
   padding: 100px 0;
-  min-height: 100vh;
 }
 
 body .container .section .section-title {
