@@ -28,6 +28,10 @@ body {
     font-family: $content-font;
   }
 
+  .basic-link {
+    color: $secondary-color;
+  }
+
   .btn-filled {
     background-color: $secondary-color;
     border-radius: 50px;

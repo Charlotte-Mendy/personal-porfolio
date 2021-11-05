@@ -15,6 +15,10 @@ body a {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+body .basic-link {
+  color: #a30aa6;
+}
+
 body .btn-filled {
   background-color: #a30aa6;
   border-radius: 50px;
