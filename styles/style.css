@@ -63,14 +63,19 @@ body .bg-primary-color {
   background-color: #fff3ff;
 }
 
+body .navbar-light .navbar-toggler {
+  color: #100250;
+  border-color: transparent;
+}
+
+body .menu-icon {
+  color: #100250;
+}
+
 body .navbar-expand-lg .navbar-collapse {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-}
-
-body .nav-item {
-  padding: 0 20px;
 }
 
 body .navbar-light .navbar-brand,

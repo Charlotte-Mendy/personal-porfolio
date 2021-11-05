@@ -78,14 +78,22 @@ body {
     background-color: $primary-color;
   }
 
+  // Overrides default prop
+  .navbar-light .navbar-toggler {
+    color: $dark-color;
+    border-color: transparent;
+  }
+
+  // Overrides default prop
+  .menu-icon {
+    color: $dark-color;
+  }
+
+  // Overrides default prop
   .navbar-expand-lg {
     .navbar-collapse {
       justify-content: flex-end;
     }
-  }
-
-  .nav-item {
-    padding: 0 20px;
   }
 
   // Overrides default prop
@@ -194,6 +202,7 @@ body {
           transform: scale(1.2);
         }
       }
+
       .profile-picture {
         max-width: 250px;
       }
@@ -228,8 +237,6 @@ body {
 
 // 🔽 Media queries
 @media (min-width: 768px) {
-  //& Global styles
-
   body {
     //& Homepage - Hero
     .hero {
