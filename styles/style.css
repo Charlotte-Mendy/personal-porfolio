@@ -174,6 +174,11 @@ body .container .section .stack-icons .stack-icon {
   margin-right: 5px;
 }
 
+body .container .section .skill-icon {
+  color: #10025083;
+  font-size: 28px;
+}
+
 body .container .section .social-icon {
   background-color: #fff3ff;
   color: #a30aa6;
