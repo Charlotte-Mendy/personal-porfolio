@@ -142,7 +142,7 @@ body .container .featured-section .project-details .project-description {
 }
 
 body .container {
-  margin: 100px 0;
+  margin: 100px auto;
 }
 
 body .container .section .section-title {
